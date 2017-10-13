@@ -3,8 +3,11 @@ function Introduce(){
 			if(Escribe < 5){
 				alert("Has introducido el número " + Escribe + " y ese número es menor que 5")
 			}
-			else{
+			else if(Escribe > 5){
 				alert("Has introducido el número " + Escribe + " y ese número es mayor que 5")
+			}
+			else{
+				alert("¡¡Has introducido el número " + Escribe +"!!")
 			}
 			
 		}
